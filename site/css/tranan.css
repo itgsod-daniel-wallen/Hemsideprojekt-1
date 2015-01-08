@@ -1,0 +1,33 @@
+#logo {
+    background-color: indianred;
+    height: 70px;
+}
+
+#logoimg {
+    width: 100px;
+    height: 100px;
+}
+
+#knapp {
+    text-decoration: none;
+    background-color: pink;
+    color: black;
+    font-size:50px ;
+    padding-top:100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left:100px;
+    margin-left:50px;
+}
+#knapp:hover {
+    background-color: #AA20BD;
+}
+
+.nav {
+    margin-top:200px;
+    margin-left:150px;
+}
+
+body{
+    margin:0;
+}
