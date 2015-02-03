@@ -44,7 +44,7 @@ Notes:	 Hand coded for Udemy.com
    -------------------------------------- */
 
 #myCarousel {
-   height: 400px;
+    height: 400px;
 }
 
 #slide1 {
@@ -83,11 +83,11 @@ Notes:	 Hand coded for Udemy.com
    }
 
    #slide1 {
-      background: url("../../images/carousel_large01.jpg") top center no-repeat;
+      background: url("/Users/daniel.wallen/Documents/Programmering/Hemsideprojekt-1/Hemsideprojekt/site/images/carousel_large01.jpg") top center no-repeat;
    }
 
    #slide2 {
-      background: url("../../images/carousel_large02.jpg") top center no-repeat;
+      background: url("/Users/daniel.wallen/Documents/Programmering/Hemsideprojekt-1/Hemsideprojekt/site/images/carousel_large02.jpg") top center no-repeat;
    }
 
 }
