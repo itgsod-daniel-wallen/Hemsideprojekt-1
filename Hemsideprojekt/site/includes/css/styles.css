@@ -1,14 +1,15 @@
-/*
 
-My Custom CSS
-=============
+body {
+    padding-top: 100px;
+}
 
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
+#matratter {
 
-*/
+}
 
+#swag {
+    color: #cf0500;
+}
 
 /* --------------------------------------
    Layout
@@ -25,13 +26,16 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Navbar
    -------------------------------------- */
+#navbar {
+    float: left;
+}
 
 #logocontainer {
-      background-color: darkgray;
+    float: left;
 }
 
 .navbar-brand {
-   padding: 13px 15px;
+    padding: 13px 15px;
 }
 
 #menybutton {
@@ -67,12 +71,28 @@ Notes:	 Hand coded for Udemy.com
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-	
+    #slide1 {
+        background: url("http://www.magotarm.se/Global/Riksforbundet/kanalen/artiklar_bilder/reflux.jpg") top center no-repeat;
+    }
+
+    #slide2 {
+        background: url("http://www.magotarm.se/Global/Riksforbundet/kanalen/artiklar_bilder/reflux.jpg") top center no-repeat;
+    }
+
+}
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-	
+    #slide1 {
+        background: url("http://www.magotarm.se/Global/Riksforbundet/kanalen/artiklar_bilder/reflux.jpg") top center no-repeat;
+    }
+
+    #slide2 {
+        background: url("http://www.magotarm.se/Global/Riksforbundet/kanalen/artiklar_bilder/reflux.jpg") top center no-repeat;
+    }
+
+}
 }
 
 /* Large desktop */
@@ -83,11 +103,11 @@ Notes:	 Hand coded for Udemy.com
    }
 
    #slide1 {
-      background: url("/Users/daniel.wallen/Documents/Programmering/Hemsideprojekt-1/Hemsideprojekt/site/images/carousel_large01.jpg") top center no-repeat;
+      background: url("http://www.magotarm.se/Global/Riksforbundet/kanalen/artiklar_bilder/reflux.jpg") top center no-repeat;
    }
 
    #slide2 {
-      background: url("/Users/daniel.wallen/Documents/Programmering/Hemsideprojekt-1/Hemsideprojekt/site/images/carousel_large02.jpg") top center no-repeat;
+      background: url("http://www.magotarm.se/Global/Riksforbundet/kanalen/artiklar_bilder/reflux.jpg") top center no-repeat;
    }
 
 }
