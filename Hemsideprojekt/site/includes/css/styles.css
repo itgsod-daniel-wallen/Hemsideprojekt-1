@@ -25,7 +25,7 @@ body {
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-#navbar {
+#navbar() {
     float: left;
 }
 
@@ -46,7 +46,7 @@ body {
    Carousel
    -------------------------------------- */
 
-#myCarousel {
+#myCarousel .item {
     height: 400px;
 }
 
@@ -56,6 +56,18 @@ body {
 
 #slide2 {
    background: url("../../images/carousel_medium02.jpg") top center no-repeat;
+}
+
+#slide1_text {
+    font-size: 26px;
+    color: black;
+    margin-bottom: 27px;
+}
+
+#slide2_text {
+    font-size: 26px;
+    color: black;
+    margin-bottom: 27px;
 }
 
 /* --------------------------------------
@@ -70,43 +82,35 @@ body {
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-    #slide1 {
-        background: url("http://www.magotarm.se/Global/Riksforbundet/kanalen/artiklar_bilder/reflux.jpg") top center no-repeat;
-    }
 
-    #slide2 {
-        background: url("http://www.magotarm.se/Global/Riksforbundet/kanalen/artiklar_bilder/reflux.jpg") top center no-repeat;
-    }
-
-}
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+    #myCarousel .item {
+        height: 310px;
+    }
+
     #slide1 {
-        background: url("http://www.magotarm.se/Global/Riksforbundet/kanalen/artiklar_bilder/reflux.jpg") top center no-repeat;
+        background: url("../../images/carousel_small01.jpg") top center no-repeat;
     }
 
     #slide2 {
-        background: url("http://www.magotarm.se/Global/Riksforbundet/kanalen/artiklar_bilder/reflux.jpg") top center no-repeat;
+        background: url("../../images/carousel_small02.jpg") top center no-repeat;
     }
-
-}
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
+    #myCarousel .item {
+        height: 502px;
+    }
 
-   #myCarousel {
-      height: 502px;
-   }
+    #slide1 {
+        background: url("../../images/carousel_large01.jpg") top center no-repeat;
+    }
 
-   #slide1 {
-      background: url("http://www.magotarm.se/Global/Riksforbundet/kanalen/artiklar_bilder/reflux.jpg") top center no-repeat;
-   }
-
-   #slide2 {
-      background: url("http://www.magotarm.se/Global/Riksforbundet/kanalen/artiklar_bilder/reflux.jpg") top center no-repeat;
-   }
-
+    #slide2 {
+        background: url("../../images/carousel_large02.jpg") top center no-repeat;
+    }
 }
