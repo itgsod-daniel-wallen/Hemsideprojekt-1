@@ -12,19 +12,12 @@ body {
 }
 
 #krav {
-    margin-left: 415px;
-}
-
-.map {
-    min-width: 300px;
-    min-height: 300px;
-    width: 100%;
-    height: 100%;
+    margin-left: 63%;
 }
 
 .header {
     background-color: #F5F5F5;
-    color: #36A0FF;
+    color: #5dda6c;
     height: 70px;
     font-size: 27px;
     padding: 10px;
